@@ -1,0 +1,106 @@
+.header {
+    background: linear-gradient(90deg, rgba(255,192,203,1) 0%, rgba(255,140,255,1) 50%, rgba(255,222,173,1) 100%);
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+.search-bar {
+    position: relative;
+}
+
+.search-input {
+    border-radius: 30px;
+    padding-left: 15px;
+    width: 300px;
+}
+
+.search-btn {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.producto-card {
+    background-color: #fff;
+    border: none;
+}
+
+.producto-img {
+    max-width: 100%;
+    border-radius: 12px;
+}
+
+.ver-mas-btn {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 12px;
+}
+
+.ver-mas-btn:hover {
+    background-color: #ff4500;
+}
+
+.card {
+    padding: 10px;
+}
+
+main {
+    background-color: #f8f5f2;
+}
+
+table.dataTable {
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    border-collapse: separate;
+    margin-top: 20px;
+}
+
+table.dataTable thead {
+    background-color: rgba(255,192,203,0.8);
+    color: #000;
+}
+
+table.dataTable tbody tr {
+    background-color: #f8f5f2;
+}
+
+table.dataTable tbody tr:hover {
+    background-color: rgba(255,140,255,0.1);
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    padding: 5px 10px;
+    margin: 2px;
+    background-color: #ff6347;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    background-color: #ff4500;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+    border-radius: 30px;
+    padding-left: 15px;
+    width: 300px;
+}
+
+.dataTables_wrapper .dataTables_length select {
+    border-radius: 30px;
+    padding: 5px;
+    width: auto;
+}
+
+.dataTables_wrapper .dataTables_info {
+    margin-top: 10px;
+}
